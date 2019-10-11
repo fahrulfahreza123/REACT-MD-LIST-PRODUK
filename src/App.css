@@ -1,0 +1,97 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+} */
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+th {
+  background: #007bff9b;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+table,
+th {
+  border: 1px solid #2a7cd3;
+  border-collapse: collapse;
+  width: 1000px;
+}
+td {
+  padding: 10px;
+  text-align: left;
+  color: black;
+  background-color: rgb(0, 0, 0, 0.1);
+}
+button {
+  font-weight: bolder;
+  transition-duration: 0.3s;
+  background: white;
+  padding: 14px 28px;
+}
+button:hover {
+  border: none;
+  transition-duration: 0.5s;
+  background: #007bff9b;
+}
+input[type="text"] {
+  width: 50%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+input[type="number"] {
+  width: 50%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+input[type="number"]:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+.inputan {
+  background-color: #efefee;
+}
+.header {
+  background-color: #007bff9b;
+}
+.button-submit {
+}
